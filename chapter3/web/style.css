@@ -41,3 +41,11 @@
     object-position: 50% 0;
 }
 
+#link_container {
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    right: 0;
+    width: calc(100vw - 100vh / 3 * 4);
+    text-align: center;
+}
