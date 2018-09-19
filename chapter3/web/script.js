@@ -51,6 +51,7 @@ window.onload = ()=> {
 
         call.on('stream', (stream) => {
             document.getElementById('button_container').classList.add('d-none');
+            document.getElementById('message_container').classList.remove('d-none');
             document.getElementById("remote_video").srcObject = stream;
         });
 

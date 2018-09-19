@@ -16,6 +16,15 @@
     text-align: center;
 }
 
+#message_container {
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    width: calc(100vh / 3 * 4);
+    text-align: center;
+}
+
 .rotate {
     transform: rotate(180deg);
     -moz-transform: rotate(180deg);
