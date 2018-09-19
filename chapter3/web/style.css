@@ -31,3 +31,13 @@
     -webkit-transform: rotate(180deg);
 }
 
+#skyway {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: calc(100vw - 100vh / 3 * 4);
+    object-fit: contain;
+    object-position: 50% 0;
+}
+
