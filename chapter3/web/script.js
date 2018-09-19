@@ -66,6 +66,10 @@ window.onload = ()=> {
             connection.send(message);
         };
     };
+
+    document.getElementById('remote_video').onclick = (e) => {
+        e.target.classList.toggle('rotate');
+    }
 };
 
 
